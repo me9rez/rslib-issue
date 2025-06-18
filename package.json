@@ -1,0 +1,27 @@
+{
+  "name": "rslib-test",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rslib build",
+    "dev": "rslib build --watch"
+  },
+  "devDependencies": {
+    "@rslib/core": "^0.10.0",
+    "@types/node": "^24.0.3",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.16"
+  }
+}
