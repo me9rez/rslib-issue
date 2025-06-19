@@ -17,7 +17,7 @@
     "dev": "rslib build --watch"
   },
   "devDependencies": {
-    "@rslib/core": "^0.10.0",
+    "@rslib/core": "^0.10.1",
     "@types/node": "^24.0.3",
     "typescript": "^5.8.3"
   },
